@@ -38,10 +38,10 @@ export interface Currency {
 }
 
 export function createCurrencyItem(currency: Record<string, any>): Currency {
-  const code = currency.$.CurrencyCode;
+  const code = currency.$.CurrencyCode.trim();
   const unit = Number(currency.Unit[0]);
-  const name = currency.Isim[0];
-  const currencyName = currency.CurrencyName[0];
+  const name = currency.Isim[0].trim();
+  const currencyName = currency.CurrencyName[0].trim();
   const forexBuying = Number(currency.ForexBuying[0]) / unit;
   const forexSelling = Number(currency.ForexSelling[0]) / unit;
   const banknoteBuying = currency.BanknoteBuying[0]
