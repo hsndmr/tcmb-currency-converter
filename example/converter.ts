@@ -1,8 +1,9 @@
 import { createTcmbCurrencyConverter } from 'tcmb-currency-converter';
 
-const tcmbCurrencyConverter = createTcmbCurrencyConverter();
-{
-}
+const tcmbCurrencyConverter = createTcmbCurrencyConverter({
+  dataUpdateIntervalInMinutes: 10, // varsayılan değer 10 dakikadır.
+});
+
 // 1 USD'nin TL karşılığı olan değerleri getirir.
 tcmbCurrencyConverter
   .convert({
