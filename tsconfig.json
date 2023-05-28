@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "strict": true,
+    "removeComments": false,
+    "esModuleInterop": true,
+    "useUnknownInCatchVariables": false,
+    "target": "es6",
+    "sourceMap": false,
+    "outDir": "./dist",
+    "rootDir": "./lib",
+    "skipLibCheck": true,
+    "isolatedModules": true,
+  },
+  "include": ["lib/**/*"],
+  "exclude": ["node_modules", "example"]
+}
