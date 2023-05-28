@@ -1,0 +1,17 @@
+{
+  "name": "example-tcmb-currency-converter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "converter": "ts-node converter.ts"
+  },
+  "dependencies": {
+    "tcmb-currency-converter": "../dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
