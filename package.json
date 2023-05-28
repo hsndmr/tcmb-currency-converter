@@ -2,7 +2,7 @@
   "name": "tcmb-currency-converter",
   "version": "0.0.2",
   "description": "Türkiye Cumhuriyet Merkez Bankası (TCMB) tarafından sağlanan günlük döviz kurları üzerinden istenilen kur bilgisini sunar ve ayrıca çapraz kur dönüşümü gerçekleştirir.",
-  "url": "https://github.com/hsndmr/tcmb-currency-converter",
+  "repository": "https://github.com/hsndmr/tcmb-currency-converter",
   "files": [
     "dist",
     "LICENSE",
