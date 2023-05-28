@@ -1,7 +1,7 @@
 import { fetchCurrencies } from './internals/fetchCurrencies';
 import { parseCurrencies } from './internals/parseCurrencies';
 import { shouldUpdateData } from './internals/shouldUpdateData';
-import createTcmbCurrencyConverter from './createTcmbCurrencyConverter';
+import { createTcmbCurrencyConverter } from './createTcmbCurrencyConverter';
 
 jest.mock('./internals/fetchCurrencies');
 jest.mock('./internals/parseCurrencies');

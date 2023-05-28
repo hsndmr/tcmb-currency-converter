@@ -22,7 +22,7 @@ interface ConvertResult {
   banknoteBuying?: number;
 }
 
-export default function createTcmbCurrencyConverter(options?: Options) {
+export function createTcmbCurrencyConverter(options?: Options) {
   const { dataUpdateIntervalInMinutes } = options || {};
   let data: CurrencyResponse | undefined = undefined;
   let lastUpdatedDataDate: Date = new Date();
